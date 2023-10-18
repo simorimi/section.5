@@ -1,0 +1,25 @@
+Deploying a Website
+└ Moving the website code onto a remote machine("server") that serves the site to visitors
+
+Hosting
+└ The remote machine("server") hosts(stores) the website code and serves it to visitors
+
+Netlify에서 배포(app.netlify.com/drop)
+
+fabicon
+└ google에 fabicon generator 검색
+생성 후 .ico 파일을 사용
+
+HTML 파일에 다음과 같이 추가
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+└ 여기서 type이란 브라우저에게 어떤 파일을 찾을지 힌트를 제공. 여기서는 특수아이콘이미지라는 힌트
+
+상대 경로 & 절대 경로
+- 상대 경로(Relative Path)
+└ Look for files and folders relative from the source files
+ex) images/my-image.jpg
+- 절대 경로(Absolute Path)
+└ Look for files and folders relative from the root folder
+ex) /images/my-image.jpg
+
+herf = "/" → 루트폴더에 index.html 파일을 가리킴
